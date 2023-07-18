@@ -1,9 +1,13 @@
+import 'dotenv/config'
 import styles from './page.module.css'
 import Layout from './layout'
 import { useState } from 'react'
 import { Configuration, OpenAIApi } from "openai";
 import basededatos from './basededatos.json'
 import { cosineSimilarity } from 'cosine-similarity-threshold'
+
+
+console.log(process.env) // remove this after you've confirmed it is working
 
 const configuration = new Configuration({ apiKey: process.env.OPENAI_KEY });
 const openai = new OpenAIApi(configuration);
