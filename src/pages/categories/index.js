@@ -6,7 +6,7 @@ import { Configuration, OpenAIApi } from "openai";
 import basededatos from './basededatos.json'
 import { cosineSimilarity } from 'cosine-similarity-threshold'
 
-const configuration = new Configuration({ apiKey: atob('c2stWVpNeXB1Wk8wZENsZGZ6d1FHMlNUM0JsYmtGSk82WVJGcFg5S2hSTnppdmZIQ0g1') });
+const configuration = new Configuration({ apiKey:atob('c2stZW5SZzBRSUVTcDBsTWsxS2hNN3pUM0JsYmtGSnBoM3RCRkJUaHlTeVZyWFgyVURE') });
 const openai = new OpenAIApi(configuration);
 
 export default function Categories() {
