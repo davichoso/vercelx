@@ -8,7 +8,6 @@ import { cosineSimilarity } from 'cosine-similarity-threshold'
 const configuration = new Configuration({ apiKey: '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' });
 const openai = new OpenAIApi(configuration);
 
-
 export default function Categories() {
 
   const [texareaValue, setTexareaValue] = useState('')
