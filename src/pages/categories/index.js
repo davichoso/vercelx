@@ -1,3 +1,4 @@
+import 'dotenv/config'
 import styles from './page.module.css'
 import Layout from './layout'
 import { useState } from 'react'
